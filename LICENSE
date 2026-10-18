@@ -1,0 +1,3 @@
+VeilBrowser original application code and app-specific build/integration scripts are licensed under the GNU General Public License, version 3 only (SPDX-License-Identifier: GPL-3.0-only). The full license text is in COPYING. This declaration does not replace the licenses or copyright notices of third-party components, filter lists, or other separately licensed materials. See THIRD_PARTY.md and the original files supplied with each component.
+
+No App Store exception for third-party code is granted or claimed by this project. A third-party grant must come from the relevant rightsholder. Public App Store binary distribution remains pending the permission review described in APPSTORE-PERMISSION-PENDING.md.
