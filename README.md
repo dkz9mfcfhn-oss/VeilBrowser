@@ -1,19 +1,21 @@
 # 隐幕 / VeilBrowser
 
-An open-source iOS private browser with fixed Yandex search and AdGuard-based filtering.
+An iOS private browser with fixed Yandex (yandex.tm) search, nonpersistent website data, local native advertising filters and website video controls.
 
-## Complete corresponding source
+## Current distribution source — 1.3 build 11
 
-Download [VeilBrowser-OpenSource.zip](./VeilBrowser-OpenSource.zip) and extract it. This archive contains the complete application source, Xcode project, vendored dependency sources and original licenses, original filter snapshots, generated assets, rebuild scripts, and build instructions (`BUILDING.md`). Version 1.3, build 6. The repository currently publishes the full source as an archive.
+[VeilBrowser-Native-1.3-build11-Source.zip](VeilBrowser-Native-1.3-build11-Source.zip) contains the complete standalone Xcode project and selected icon. Project-owned code is provided under MIT, with LICENSE inside this archive. Development Team is blank in this public source; no signing keys or user account data are included.
 
-源码完整压缩包内含应用代码、Xcode 工程、第三方对应源码和许可证、规则快照、重建脚本与构建说明。解压后打开 `VeilBrowser-OpenSource/VeilBrowser.xcodeproj`；真机签名需选择自己的开发者团队。
+This version does not include or link AdGuard SafariConverterLib, FilterEngine, Scriptlets, ExtendedCss, imported filter lists, or a third-party rule updater. Advertising filters are independently authored native WebKit rules and local page-cleaning scripts. Their coverage is smaller than a full third-party filter engine. They cannot remove every advertisement. No VPN, proxy subscription, offline video downloader or analytics SDK is included.
 
-Archive SHA-256: `cdd828910d6badf1e6637f6694691efb3d9e1cd4b9122e8dd56a5e20dc9ae61c`
+Open VeilBrowser.xcodeproj with Xcode; iOS 17+, iPhone/iPad. Choose your own signing team. Build 11 native filter regression checks on iOS 27 simulator pass; real-site/media/device coverage is not implied. App Store review has not been submitted or approved.
 
-The archive includes `RELEASE-MANIFEST.json`, recording the size and SHA-256 of 904 source files.
+[Privacy policy](PRIVACY.md) · [Support and privacy questions](https://github.com/dkz9mfcfhn-oss/VeilBrowser/issues). Do not post sensitive information publicly.
 
-## License and App Store status
+## Historical GPL distribution
 
-Original project code is GPL-3.0-only. Third-party materials retain their original licenses. See [LICENSE](./LICENSE), [COPYING](./COPYING), and [THIRD_PARTY.md](./THIRD_PARTY.md).
+VeilBrowser-OpenSource.zip is the earlier 1.3 build 6 GPL-3.0-only source snapshot containing third-party AdGuard components. Root LICENSE, COPYING, THIRD_PARTY.md and APPSTORE-PERMISSION-PENDING.md relate to that historical distribution. They are preserved with their original terms. No App Store exception has been obtained for those components; the current standalone distribution excludes them. The MIT grant covers project-owned material in the new archive only and does not relicense historical third-party code or filter contributions.
 
-An App Store distribution permission inquiry has been sent to AdGuard. No explicit permission or exception has been received. Publishing this source does not establish third-party permission for App Store binary distribution. See [APPSTORE-PERMISSION-PENDING.md](./APPSTORE-PERMISSION-PENDING.md).
+## Source integrity
+
+Native source archive SHA-256: `e2b5fd1c08decf6cb577f4717e24aaaf0869fad8299b442761e15bd96ab0cbc6`
