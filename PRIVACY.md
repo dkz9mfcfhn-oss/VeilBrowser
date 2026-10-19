@@ -1,6 +1,6 @@
 # 隐幕隐私政策 / VeilBrowser Privacy Policy
 
-更新日期：2026 年 10 月 19 日。适用于版本 1.3（构建 11）及后续具有相同数据处理方式的版本。
+更新日期：2026 年 10 月 19 日。适用于版本 1.0（构建 12）及后续具有相同数据处理方式的版本。
 
 运营者：lin wang。技术支持与隐私联系：[GitHub Issues](https://github.com/dkz9mfcfhn-oss/VeilBrowser/issues)。请勿在公开 Issue 中填写密码、身份证件、完整浏览记录或其他敏感信息。
 
